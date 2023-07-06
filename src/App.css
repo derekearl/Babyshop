@@ -1,0 +1,64 @@
+/* NAv BAr */
+.navbar-brand img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.navbar-nav a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-link {
+  margin-left: 2rem;
+}
+.carsousel-item img {
+  height: 550px;
+}
+
+.cartPlantContainer {
+  border: 1px solid #000;
+  margin: 5px;
+}
+.cartPlantContainer img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.total {
+  font-size: 3rem;
+}
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  height: 300px;
+}
+
+.carousel-inner img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.contact-link a {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+.contact-link img {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+}
