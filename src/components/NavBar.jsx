@@ -30,7 +30,7 @@ export default function NavBar() {
               Home
             </NavLink>
             <NavLink className="nav-link" to="/plants">
-              Plants
+              Product
             </NavLink>
             <NavLink className="nav-link" to="/about">
               About

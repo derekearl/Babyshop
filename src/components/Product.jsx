@@ -5,27 +5,27 @@ import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Skeleton from "react-loading-skeleton";
 
-export default function Plant() {
+export default function Product() {
 
   const { id } = useParams();
-  const [plant, setPlant] = useState([]);
+  const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const dispatch = useDispatch();
 
-  const addPlant = (plant) => {
-    dispatch(addCart(plant));
+  const addProduct = (product) => {
+    dispatch(addCart(product));
   };
 
   useEffect(() => {
-    const getPlant = async () => {
+    const getProduct = async () => {
       setLoading(true);
-      const response = await fetch(`https://spruce-moose-backend.onrender.com/plant/${id}`);
+      const response = await fetch(`https://spruce-moose-backend.onrender.com/Product/${id}`);
       console.log(await response.body);
-      setPlant(await response.clone().json());
+      setProduct(await response.clone().json());
       setLoading(false);
     };
-    getPlant();
+    getProduct();
   }, []);
 
   const Loading = () => {
@@ -45,31 +45,31 @@ export default function Plant() {
       </>
     );
   };
-  const ShowPlant = () => {
+  const ShowProduct = () => {
     return (
       <>
         <div className="col-md-6">
           <img
-            src={plant.imgUrl}
-            alt={plant.commonName}
+            src={product.imgUrl}
+            alt={product.commonName}
             height="400px"
             width="400px"
           />
         </div>
         <div className="col-md-6">
-          <h4 className="text-uppercase text-black-50">{plant.scientificName}</h4>
-          <h1 className="display-5">{plant.commonName}</h1>
+          <h4 className="text-uppercase text-black-50">{product.scientificName}</h4>
+          <h1 className="display-5">{product.commonName}</h1>
           <p className="lead fw-bolder">
-            Category: {plant.category}
+            Category: {product.category}
             <br />
-            Size: {plant.size}
+            Size: {product.size}
           </p>
-          <h3 className="display-6 fw-bold my-4">$ {plant.price}</h3>
-          <p className="lead">{plant.description}</p>
+          <h3 className="display-6 fw-bold my-4">$ {product.price}</h3>
+          <p className="lead">{product.description}</p>
           <button
             className="btn btn-outline-dark px-4 py-2"
             onClick={() => {
-              addPlant(plant);
+              addProduct(product);
             }}
           >
             Add to cart
@@ -86,7 +86,7 @@ export default function Plant() {
     <>
       <div className="container py-5">
         <div className="row py-4">
-          {loading ? <Loading /> : <ShowPlant />}
+          {loading ? <Loading /> : <ShowProduct />}
         </div>
       </div>
     </>
