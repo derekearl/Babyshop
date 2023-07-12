@@ -48,7 +48,7 @@ export default function About() {
           <div className="col-md-6">
             <img
               className="card-img-top"
-              src="../../assets/orchard1.jpg"
+              src="../assets/babyshop1.jpeg"
               alt=""
             />
           </div>

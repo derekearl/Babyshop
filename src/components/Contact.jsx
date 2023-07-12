@@ -16,14 +16,14 @@ export default function Contact() {
           <div className="col-md-6">
             <img
               className="card-img-top"
-              src="../../assets/location.png"
+              src="../../assets/babyshop6.png"
               alt="Location"
             />
           </div>
           <div className="col-md-6 contact-links">
             <div className="contact-link">
               <img src="../../assets/email.png" alt="email" />
-              <a href="#">spruce@moose.com</a>
+              <a href="#">babyshop@online.com</a>
             </div>
             <div className="contact-link">
               <img src="../../assets/phone.png" alt="telephone" />

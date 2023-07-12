@@ -50,7 +50,7 @@ export default function Product() {
       <>
         <div className="col-md-6">
           <img
-            src={product.imgUrl}
+            src="/assets/babyshop4.png"
             alt={product.commonName}
             height="400px"
             width="400px"

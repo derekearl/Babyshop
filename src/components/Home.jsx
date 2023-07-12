@@ -1,5 +1,5 @@
 import React from "react";
-import Plants from "./Plants";
+import Plants from "./Products";
 export default function Home() {
   return (
     <>
@@ -28,13 +28,13 @@ export default function Home() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/assets/orchard2.jpg" className="d-block w-100" alt="banner 1" />
+            <img src="/assets/babyshop2.jpeg" className="d-block w-100" alt="banner 1" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/orchard5.jpg" className="d-block w-100" alt="banner 2" />
+            <img src="/assets/babyshop5.png" className="d-block w-100" alt="banner 2" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/orchard6.jpg" className="d-block w-100" alt="banner 3" />
+            <img src="/assets/babyshop6.png" className="d-block w-100" alt="banner 3" />
           </div>
         </div>
         <button

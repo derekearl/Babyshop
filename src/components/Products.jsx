@@ -80,7 +80,7 @@ export default function Plants() {
                     className="btn  btn-outline-dark"
                   >
                   <img
-                    src={plant.imgUrl}
+                    src="/assets/babyshop5.png"
                     height="250px"
                     className="card-img-top"
                     alt={plant.commonName}

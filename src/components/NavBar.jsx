@@ -9,7 +9,7 @@ export default function NavBar() {
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <img
-            src="../../assets/Spruce-removebg-preview.png"
+            src="../../assets/babyshop.png"
             alt="Logo Spruce"
           />
         </NavLink>
