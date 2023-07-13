@@ -20,7 +20,7 @@ export default function Product() {
   useEffect(() => {
     const getProduct = async () => {
       setLoading(true);
-      const response = await fetch(`https://spruce-moose-backend.onrender.com/Product/${id}`);
+      const response = await fetch(`https://bobyshop2.onrender.com/product/${id}`);
       console.log(await response.body);
       setProduct(await response.clone().json());
       setLoading(false);
@@ -50,19 +50,21 @@ export default function Product() {
       <>
         <div className="col-md-6">
           <img
-            src="/assets/babyshop4.png"
-            alt={product.commonName}
+            src={product.images}
+            alt={product.name}
             height="400px"
             width="400px"
           />
         </div>
         <div className="col-md-6">
-          <h4 className="text-uppercase text-black-50">{product.scientificName}</h4>
-          <h1 className="display-5">{product.commonName}</h1>
+          <h4 className="text-uppercase text-black-50">{product.name}</h4>
+          <h1 className="display-5">{product.name}</h1>
           <p className="lead fw-bolder">
-            Category: {product.category}
+            Gender: {product.gender}
             <br />
             Size: {product.size}
+            <br />
+            Season: {product.season}
           </p>
           <h3 className="display-6 fw-bold my-4">$ {product.price}</h3>
           <p className="lead">{product.description}</p>

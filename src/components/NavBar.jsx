@@ -29,7 +29,7 @@ export default function NavBar() {
             <NavLink className="nav-link active" aria-current="page" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/plants">
+            <NavLink className="nav-link" to="/products">
               Product
             </NavLink>
             <NavLink className="nav-link" to="/about">
