@@ -1,27 +1,27 @@
 // Adding Item to Cart
 
-export const addCart = (plant) =>{
+export const addCart = (product) =>{
   return {
     type: "ADDITEM",
-    payload: plant
+    payload: product
   }
 }
 
 // Adding Delete to Cart
 
-export const delCart = (plant) =>{
+export const delCart = (product) =>{
   return {
     type: "DELITEM",
-    payload: plant
+    payload: product
   }
 }
 
 // Remove Item
 
-export const rmvCart = (plant) =>{
+export const rmvCart = (product) =>{
   return {
     type: "RMVITEM",
-    payload: plant
+    payload: product
   }
 }
 
