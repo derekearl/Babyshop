@@ -21,7 +21,6 @@ export default function Product() {
     const getProduct = async () => {
       setLoading(true);
       const response = await fetch(`https://bobyshop2.onrender.com/product/${id}`);
-      console.log(await response.body);
       setProduct(await response.clone().json());
       setLoading(false);
     };
