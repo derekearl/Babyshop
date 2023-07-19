@@ -11,7 +11,7 @@ export default function Products() {
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
-      const response = await fetch("https://bobyshop.onrender.com/product");
+      const response = await fetch("https://bobyshop2.onrender.com/product");
       // console.log(response)
       if (componentMounted) {
         setData(await response.clone().json());
