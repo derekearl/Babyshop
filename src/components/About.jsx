@@ -15,14 +15,13 @@ export default function About() {
         <div className="row justify-content-center">
           <div className="col-md-6 ">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptas, quod, voluptates quibusdam voluptatibus quidem `
+              Welcome to the Babyshop! Here we provide the best clothes for
+              the little one in your life to make them look fabulous.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptas, quod, voluptates quibusdam voluptatibus quidem
-              voluptatum quos quia quas, nesciunt quia quas, nesciunt voluptatum
-              quos quia quas, nesciunt
+              Started in Rexburg, Idaho in 2023 family owned and operated, your family
+              is our family. We make all of our products by hand using a ancient technique 
+              with silk.
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
