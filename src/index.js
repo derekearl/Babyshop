@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import bootstrap from "bootstrap";
-// import { Carousel } from "bootstrap";
+// Import { Carousel } from "bootstrap";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
