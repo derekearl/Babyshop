@@ -20,7 +20,7 @@ export default function Product() {
   useEffect(() => {
     const getProduct = async () => {
       setLoading(true);
-      const response = await fetch(`https://bobyshop2.onrender.com/product/${id}`);
+      const response = await fetch(`https://bobyshop.onrender.com/product/${id}`);
       setProduct(await response.clone().json());
       setLoading(false);
     };

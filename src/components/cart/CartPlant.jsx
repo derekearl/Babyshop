@@ -22,7 +22,7 @@ export default function CartPlant({ cartPlant, dispatch }) {
       <div className="cartPlantDescription col-7 p-2">
         <p>{cartPlant.commonName}</p>
         <p>
-          Quantity:
+          Number:
           <br />
           <button className="btn btn-light" onClick={handleReduce}>
             -

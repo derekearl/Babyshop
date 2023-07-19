@@ -44,7 +44,7 @@ export default function Home() {
           data-bs-slide="prev"
         >
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
+          <span className="visually-hidden">Back</span>
         </button>
         <button
           className="carousel-control-next"

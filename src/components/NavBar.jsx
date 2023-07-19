@@ -40,7 +40,7 @@ export default function NavBar() {
             </NavLink>
             <div className="nav-link buttons">
               <NavLink to="/login" className="btn btn-outline-dark">
-                <i className="fa fa-sign-in me-1"></i> Login
+                <i className="fa fa-sign-in me-1"></i> login
               </NavLink>
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
                 <i className="fa fa-shopping-cart me-1"></i> Cart (

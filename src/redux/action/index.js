@@ -7,7 +7,7 @@ export const addCart = (product) =>{
   }
 }
 
-// Adding Delete to Cart
+// Delete to Cart
 
 export const delCart = (product) =>{
   return {

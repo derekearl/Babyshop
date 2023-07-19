@@ -62,7 +62,7 @@ const registerUser = async () => {
                 Agree to terms and conditions
               </label>
               <div className="invalid-feedback">
-                You must agree before submitting.
+                You must agree to terms before submitting.
               </div>
             </div>
           </div>

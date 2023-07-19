@@ -27,11 +27,11 @@ export default function Contact() {
             </div>
             <div className="contact-link">
               <img src="../../assets/phone.png" alt="telephone" />
-              <a href="#">(208) 932 2349</a>
+              <a href="#">(208) 701 4355</a>
             </div>
             <div className="contact-link">
               <img src="../../assets/locations.png" alt="location" />
-              <a href="#">555 main st, Rexburg, ID 83440</a>
+              <a href="#">555 Main st, Rexburg, ID 83440</a>
             </div>
           </div>
         </div>

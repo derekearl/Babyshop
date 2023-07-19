@@ -20,7 +20,7 @@ export default function Cart() {
             <div className="emptyCart container text-center">
               <h1 className="row heading m-3 text-center">
                 {" "}
-                Your Cart is Empty...!
+                Your Cart is Empty..!
               </h1>
               <div className="row text-center">
                 <Link to="./plants" className="btn btn-large btn-primary">
