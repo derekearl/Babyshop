@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import Cart from './components/Cart';
 import Login from './components/Login';
 import Register from './components/Register';
-import Checkout from "./components/Checkout";
+import Checkout from './components/Checkout';
 
 function App() {
   return (
